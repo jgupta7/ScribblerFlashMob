@@ -12,6 +12,7 @@ import ramblin2.py
 songOrDance = "dance"
 isComplete = True
 
+
 while isComplete:
     #currMinute = datetime.datetime.now().time().minute
     #if (currMinute == 25):
@@ -32,8 +33,17 @@ def backAndForth():
     forward(1,0.5)
     backward(1,0.5)
 def spinLeftRight():
-
+    turnLeft(1,0.5)
+    turnRight(1,0.5)
+    turnRight(1,0.5)
+    turnLeft(1,0.5)
 def moveTurnRight():
-
+    turnRight(1,0.5)
+    forward(1,1)
+    backward(1,1)
+    turnLeft(1,0.5)
 def moveTurnLeft():
-
+    turnLeft(1,0.5)
+    forward(1,1)
+    backward(1,1)
+    turnRight(1,0.5)

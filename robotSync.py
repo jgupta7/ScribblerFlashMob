@@ -22,7 +22,7 @@ while isComplete:
         if (songOrDance == "dance"):
             
 
-        else if (songOrDance == "song"):
+        elif (songOrDance == "song"):
             ramblin.ramblin()
             #ramblin2.ramblin()
         isComplete = False

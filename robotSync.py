@@ -16,9 +16,9 @@ while isComplete:
         #play dat beat
         #do dat dance
         if (songOrDance == "dance"):
+            
 
-            isComplete = False
         else if (songOrDance == "song"):
             ramblin.ramblin()
             #ramblin2.ramblin()
-            isComplete = False
+        isComplete = False

@@ -5,8 +5,8 @@ from Myro import *
 
 import urllib
 import datetime
-#import ramblin.py
-#import ramblin2.py
+import ramblin.py
+import ramblin2.py
 
 #init()
 songOrDance = "dance"
@@ -21,19 +21,3 @@ for string in stringList:
     aList = []
     if "(UTC)" in string:
         print(string[92:102])
-
-while isComplete:
-    currMinute = datetime.datetime.now().time().minute
-    if (currMinute == 25):
-        #play dat beat
-        #do dat dance
-        if (songOrDance == "dance"):
-            print("HI")
-        elif (songOrDance == "song"):
-            ramblin.ramblin()
-            #ramblin2.ramblin()
-        isComplete = False
-
-
-#def switchAndSlide():
-

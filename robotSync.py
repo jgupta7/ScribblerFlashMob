@@ -4,18 +4,21 @@
 from Myro import *
 
 import datetime
-import time
+import ramblin.py
+import ramblin2.py
+
 #init()
-date = datetime.date(2014, 10, 5)
-x = datetime.datetime.now().time().minute
-y = time.clock()
-print (x)
-print (type(x))
+songOrDance = "dance"
 isComplete = True
 while isComplete:
     currMinute = datetime.datetime.now().time().minute
     if (currMinute == 25):
         #play dat beat
         #do dat dance
-        print ("Look at me now")
-        isComplete = False
+        if (songOrDance == "dance"):
+
+            isComplete = False
+        else if (songOrDance == "song"):
+            ramblin.ramblin()
+            #ramblin2.ramblin()
+            isComplete = False
